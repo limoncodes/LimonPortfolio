@@ -36,29 +36,56 @@ export interface Project {
 
 // ⚠️ SAMPLE DATA — replace these with your real projects.
 export const projects: Project[] = [
+   {
+    id: "SalonBook",
+    title: "SalonBook",
+    category: "Full Stack",
+    year: "2026",
+    featured: true,
+    description: "A Full-Stack Salon Appointment Booking Platform",
+    longDescription:
+      "SalonBook is a full-stack salon appointment booking platform that allows customers to explore salon services, book appointments, and make secure online payments. Users can browse services with search, category filtering, and sorting, manage their appointments, and track booking statuses through a personal dashboard. It features secure email/password and Google authentication, role-based access control, JWT-protected backend APIs, and Stripe payment integration. Admins can manage salon services, appointments, users, and payment transactions through a dedicated admin dashboard.",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "Better Auth",
+      "JWT",
+      "Stripe"
+    ],
+    image: "/projects/salonbook.png",
+    liveUrl: "https://salon-book-ruddy.vercel.app/",
+    frontendGithub: "https://github.com/limoncodes/SalonBook",
+    backendGithub: "https://github.com/limoncodes/SalonBookserver",
+  },
   {
     id: "StudioSpace",
     title: "StudioSpace",
     category: "Full Stack",
     year: "2026",
-    featured: true,
+    
     description: "A Full-Stack Creative Studio Booking Marketplace",
     longDescription:
       "StudioSpace is a full-stack creative studio booking platform that connects photographers, filmmakers, podcasters, musicians, and content creators with studio owners. Users can explore creative spaces, filter studios by category, view detailed listings, and request bookings. It features secure authentication, studio listing management, booking status tracking, and separate user and host dashboards for managing reservations and monitoring earnings.",
     technologies: ["Next.js",
-    "React",
-    "TypeScript",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Tailwind CSS",
-    "shadcn/ui",
-    "Better Auth"],
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Better Auth"],
     image: "/projects/studiospace.png",
     liveUrl: "https://studio-space-azure.vercel.app",
     frontendGithub: "https://github.com/limoncodes/StudioSpace",
     backendGithub: "https://github.com/limoncodes/studio-space-backend",
   },
+ 
   {
     id: "BazarDor",
     title: "BazarDor",
@@ -67,15 +94,15 @@ export const projects: Project[] = [
     description: "A Modern Bangladesh Daily Market Price Tracking Platform",
     longDescription:
       "BazarDor is a modern and responsive web application that helps users explore and compare the prices of essential commodities across Bangladesh. Users can browse products by category, track price changes, compare minimum, maximum, and average market prices, and view detailed pricing information. It also includes user authentication and profile management for a personalized experience.",
-    technologies: [ "Next.js",
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "REST API",
-    "Better Auth"],
+    technologies: ["Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "REST API",
+      "Better Auth"],
     image: "/projects/BazarDor.png",
     liveUrl: "https://market-price-indol.vercel.app",
     frontendGithub: "https://github.com/limoncodes/Market-price",
   },
-  
+
 ];
