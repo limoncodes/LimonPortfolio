@@ -57,7 +57,7 @@ export const projects: Project[] = [
       "JWT",
       "Stripe"
     ],
-    image: "/projects/salonbook.png",
+    image: "/projects/SalonBook.png",
     liveUrl: "https://salon-book-ruddy.vercel.app/",
     frontendGithub: "https://github.com/limoncodes/SalonBook",
     backendGithub: "https://github.com/limoncodes/SalonBookserver",
